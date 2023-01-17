@@ -69,7 +69,7 @@ body {
   padding: 4vh 3vw;
   height: 92vh;
   display: inline-block;
-  padding-left: 33vw;
+  padding-left: 10vw;
 }
 
 #display h1 {
@@ -544,16 +544,4 @@ body {
 
 ::-webkit-scrollbar-thumb {
   background: var(--text-color);
-}
-:root {
-  --bg-color: #fff;
-  --text-color: rgb(10, 10, 10);
-  --blog-gray-color: rgb(80, 80, 80);
-  --background-image: linear-gradient(
-      90deg,
-      rgba(10, 10, 10, 0.4),
-      rgb(10, 10, 10, 0.4)
-    ),
-    url("wallpaper_space.jpg");
-  --background-background: #fff;
 }
